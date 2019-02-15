@@ -1,3 +1,137 @@
-/*
- * Estilos de tu proyecto
- */
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.start {
+   background-color: #2c3e50; 
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    
+}
+
+.start h2{
+    font-size: 30px;
+    font-family: 'Montserrat';
+    
+}
+
+.start ul{
+    font-size: 15px;
+    font-family: 'Montserrat';
+    
+}
+
+.profile{
+    background-color: #18bc9c;
+    color:white;
+    padding: 25px;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;      
+}
+
+.profile h1{
+    font-size: 60px;
+    font-family: 'Montserrat';    
+}
+
+.profile h3{
+    font-size: 18px;
+    font-family: 'Lato';   
+}
+
+.portifolio{
+    background-color: white;
+    color: black;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portifolio p{
+    font-size: 30px;
+    font-family: 'Montserrat';   
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;   
+}
+
+.images img{
+    width: 30%;
+    height: 30%;
+    padding: 5px;
+    margin: 10px;
+}
+
+ .about {
+    background-color: #18bc9c;
+    color:white;
+    padding: 25px;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;      
+ }
+
+ .about h3{
+    font-size: 50px;
+    font-family: 'Montserrat';   
+}
+
+.text {
+    padding: 50px;
+    width: 60%;
+    font-size: 25px;
+    font-family: 'Lato';
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.text p{
+    margin: 10px;
+}
+
+.about button{
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.contact {
+    background-color: white;
+    display: flex;
+    flex-direction: column;      
+ }
+
+ .contact h3{
+    font-size: 50px;
+    font-family: 'Montserrat';  
+    color: black;
+    text-align: center;
+ }
+
+ .contact form{
+     
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
