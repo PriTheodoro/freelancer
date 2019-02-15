@@ -100,31 +100,116 @@
 .about button{
     height: 40px;
     color: white;
+    font-family: 'Lato';
     background-color: transparent;
     border: 1px solid white;
 }
 
-.contact {
+.contact h3{
     background-color: white;
-    display: flex;
-    flex-direction: column;      
- }
-
- .contact h3{
     font-size: 50px;
     font-family: 'Montserrat';  
     color: black;
     text-align: center;
- }
+}
 
- .contact form{
-     
- }
+.contact form{
+    display: flex;
+    flex-direction: column;
+    
 
+}
+.contact input{
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Lato';
+    border: none;
+    margin: 1% 5% 1% 30%;
+}
 
+.contact button{
+    color: white;
+    background-color:#18bc9c;
+    font-size: 15px;
+    font-family: 'Lato';
+    border: 1px solid #18bc9c;
+    margin: 5% 10% 5% 30%;    
+}
 
+.end{
+    background-color: #2c3e50;
+    color: white;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
 
+}
+.endLeft{
+    width: 30%;
+    text-align: center;
+}
 
+.endCenter{
+    width: 33%;
+    text-align: center;
+}
+
+.endRight{
+    width: 34%;
+    text-align: center;
+}
+
+.endLeft h4{
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.endLeft p{
+    font-size: 15px;
+    margin-bottom: 10%;
+}
+
+.endCenter p{
+    font-size: 15px;
+    
+}
+
+.endCenter ul{
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0px;
+}
+
+.endCenter li{
+    list-style-type:none;
+    border-radius: 50%;
+    border:1px solid white;
+    padding: 10px;
+    margin:5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.endCenter small{
+    font-size: 10px;
+}
+
+.endRight h4{
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+.endRight p{
+    font-size: 15px;
+}
+
+.endRight a{
+    color: #18bc9c;
+    text-decoration-line: none;
+}
 
 
 
